@@ -5,7 +5,7 @@ export const projects = [
     description:
       "A comprehensive human resources platform for managing employees, attendance, leave requests, and internal workflows with role-based access.",
     image: "/images/projects/project-1.svg",
-    technologies: ["Laravel", "PHP", "MySQL", "Blade", "REST APIs"],
+    technologies: ["Laravel", "PHP", "MySQL", "Next.js", "REST APIs"],
     github: "",
     liveDemo: "https://hr-management-systum.netlify.app/",
     features: [
@@ -22,7 +22,7 @@ export const projects = [
     description:
       "A premium automotive showcase website featuring modern UI, vehicle listings, and an immersive browsing experience.",
     image: "/images/projects/project-2.svg",
-    technologies: ["React.js", "Next.js", "Tailwind CSS", "JavaScript"],
+    technologies: ["React.js", "Next.js", "Tailwind CSS", "JavaScript", "MERN Stack"],
     github: "",
     liveDemo: "https://bmw-showcase.netlify.app/",
     features: [
@@ -41,7 +41,7 @@ export const projects = [
     image: "/images/projects/project-3.svg",
     technologies: ["Node.js", "Express.js", "MongoDB", "React.js", "JWT"],
     github: "",
-    liveDemo: "",
+    liveDemo: "https://commerce-e-sitee.netlify.app/",
     features: [
       "Student and course CRUD",
       "Enrollment management",
@@ -58,7 +58,7 @@ export const projects = [
     image: "/images/projects/project-4.svg",
     technologies: ["React.js", "Redux Toolkit", "Node.js", "Express.js", "MongoDB"],
     github: "",
-    liveDemo: "https://mybookstorelibrary.netlify.app/",
+    liveDemo: "https://bookverse-site.netlify.app/",
     features: [
       "Book catalog with categories",
       "Cart state with Redux Toolkit",
@@ -75,7 +75,7 @@ export const projects = [
     image: "/images/projects/project-5.svg",
     technologies: ["Next.js", "React.js", "Tailwind CSS", "Node.js"],
     github: "",
-    liveDemo: "https://biyas-kitchen.netlify.app/",
+    liveDemo: "https://biya-kitchen.netlify.app/",
     features: [
       "Menu browsing and cart flow",
       "Restaurant listing pages",
@@ -86,18 +86,18 @@ export const projects = [
   },
   {
     id: 6,
-    title: "Movie Website",
+    title: "Weather Website",
     description:
-      "A cinematic movie discovery website with browsing, search, and detailed title pages powered by modern React patterns.",
+      "A clean weather application that displays current conditions and forecasts with a responsive, user-friendly interface.",
     image: "/images/projects/project-6.svg",
-    technologies: ["React.js", "Redux", "JavaScript", "REST APIs"],
+    technologies: ["React.js", "JavaScript", "REST APIs", "CSS3"],
     github: "",
-    liveDemo: "https://m0viehub.netlify.app/",
+    liveDemo: "https://weather-sky-site.netlify.app/",
     features: [
-      "Movie browsing and search",
-      "Detail pages with metadata",
-      "Favorites or watchlist UI",
-      "API-driven content rendering",
+      "Current weather by location or search",
+      "Forecast and condition details",
+      "API-driven weather data",
+      "Responsive mobile-friendly UI",
     ],
     category: ["Frontend"],
   },

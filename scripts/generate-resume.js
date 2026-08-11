@@ -53,28 +53,28 @@ const resume = {
       description:
         "Online bookstore with catalog browsing, category filters, and shopping-focused interface.",
       tech: "React.js, Redux Toolkit, Node.js, MongoDB",
-      link: "https://mybookstorelibrary.netlify.app/",
+      link: "https://bookverse-site.netlify.app/",
     },
     {
       title: "Biya's Kitchen",
       description:
         "Food and kitchen web experience with menu browsing and polished restaurant-style UI.",
       tech: "Next.js, React.js, Tailwind CSS",
-      link: "https://biyas-kitchen.netlify.app/",
+      link: "https://biya-kitchen.netlify.app/",
     },
     {
-      title: "Movie Website",
+      title: "Weather Website",
       description:
-        "Movie discovery website with browsing, search, and detailed title pages.",
-      tech: "React.js, Redux, REST APIs",
-      link: "https://m0viehub.netlify.app/",
+        "Weather application showing current conditions and forecasts with a responsive UI.",
+      tech: "React.js, JavaScript, REST APIs",
+      link: "https://weather-sky-site.netlify.app/",
     },
     {
       title: "Student Management System",
       description:
         "Full-stack system for students, courses, enrollments, and academic records with authentication.",
       tech: "Node.js, Express.js, MongoDB, React.js, JWT",
-      link: "",
+      link: "https://commerce-e-sitee.netlify.app/",
     },
   ],
   highlights: [
