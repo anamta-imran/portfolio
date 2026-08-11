@@ -70,10 +70,10 @@ const resume = {
       link: "https://weather-sky-site.netlify.app/",
     },
     {
-      title: "Student Management System",
+      title: "E-Commerce Website",
       description:
-        "Full-stack system for students, courses, enrollments, and academic records with authentication.",
-      tech: "Node.js, Express.js, MongoDB, React.js, JWT",
+        "Full-stack e-commerce platform with product browsing, cart flow, and a clean online shopping experience.",
+      tech: "React.js, Node.js, Express.js, MongoDB, REST APIs",
       link: "https://commerce-e-sitee.netlify.app/",
     },
   ],
