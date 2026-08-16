@@ -7,7 +7,7 @@ export const projects = [
     image: "/images/projects/project-1.svg",
     technologies: ["Laravel", "PHP", "MySQL", "Next.js", "REST APIs"],
     github: "",
-    liveDemo: "https://hr-management-systum.netlify.app/",
+    liveDemo: "https://hr-management-system-one-alpha.vercel.app/",
     features: [
       "Employee profiles and department management",
       "Attendance and leave tracking",
