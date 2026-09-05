@@ -35,11 +35,25 @@ const resume = {
   },
   projects: [
     {
+      title: "BLINK",
+      description:
+        "Full-stack beauty and camera web app with auth, live camera, beauty filters, photo editing, profiles, and favorites.",
+      tech: "React 19, Node.js, Express, MongoDB, JWT, MediaPipe, Cloudinary",
+      link: "https://blink-eight-rust.vercel.app/",
+    },
+    {
+      title: "VYBE",
+      description:
+        "Full-stack social media platform with posts, stories, notifications, follows, real-time chat, rooms, and bookmarks.",
+      tech: "React 19, Node.js, Express, MongoDB, Socket.IO, Redux Toolkit, JWT",
+      link: "https://vybe-sable-two.vercel.app/",
+    },
+    {
       title: "HR Management System",
       description:
         "Human resources platform for employee management, attendance, leave workflows, and role-based access.",
       tech: "Laravel, PHP, MySQL, REST APIs",
-      link: "https://hr-management-systum.netlify.app/",
+      link: "https://hr-management-system-one-alpha.vercel.app/",
     },
     {
       title: "BMW Car Website",

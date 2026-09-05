@@ -1,5 +1,57 @@
 export const projects = [
   {
+    id: 7,
+    title: "BLINK",
+    description:
+      "A full-stack beauty and camera web app with authentication, live camera, beauty filters, photo editing, profiles, and favorites.",
+    image: "/images/projects/project-7.svg",
+    technologies: [
+      "React 19",
+      "Node.js",
+      "Express",
+      "MongoDB",
+      "JWT",
+      "Google OAuth",
+      "MediaPipe",
+      "Cloudinary",
+    ],
+    github: "",
+    liveDemo: "https://blink-eight-rust.vercel.app/",
+    features: [
+      "Authentication with JWT and Google OAuth",
+      "Browser camera capture with beauty filters and looks",
+      "Photo editing, profiles, and favorites",
+      "REST API backend with MongoDB and Cloudinary",
+    ],
+    category: ["Full Stack", "MERN"],
+  },
+  {
+    id: 8,
+    title: "VYBE",
+    description:
+      "A full-stack social media platform with posts, stories, notifications, follows, real-time chat, rooms, challenges, and bookmarks.",
+    image: "/images/projects/project-8.svg",
+    technologies: [
+      "React 19",
+      "Node.js",
+      "Express",
+      "MongoDB",
+      "Socket.IO",
+      "Redux Toolkit",
+      "JWT",
+      "Cloudinary",
+    ],
+    github: "",
+    liveDemo: "https://vybe-sable-two.vercel.app/",
+    features: [
+      "Posts, stories, follows, and notifications",
+      "Real-time chat and rooms with Socket.IO",
+      "Challenges, moods, and bookmarks",
+      "JWT authentication with Cloudinary media",
+    ],
+    category: ["Full Stack", "MERN"],
+  },
+  {
     id: 1,
     title: "HR Management System",
     description:
