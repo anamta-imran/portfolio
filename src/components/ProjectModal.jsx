@@ -56,13 +56,14 @@ export default function ProjectModal({ project, onClose }) {
             transition={{ duration: 0.35, ease: [0.22, 1, 0.36, 1] }}
             className="relative z-10 max-h-[92vh] w-full max-w-3xl overflow-y-auto rounded-t-2xl sm:rounded-2xl border border-white/10 bg-[#0d0d0d] shadow-2xl"
           >
-            <div className="relative aspect-[16/9] bg-[#111]">
+            <div className="relative aspect-[16/9] overflow-hidden bg-[#111]">
               <Image
                 src={project.image}
                 alt={`${project.title} preview`}
                 fill
-                className="object-cover"
+                className="object-cover object-top"
                 sizes="(max-width: 768px) 100vw, 768px"
+                quality={90}
               />
               <button
                 type="button"

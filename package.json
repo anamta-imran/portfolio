@@ -6,8 +6,7 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint",
-    "resume": "node scripts/generate-resume.js"
+    "lint": "eslint"
   },
   "dependencies": {
     "framer-motion": "^12.23.12",

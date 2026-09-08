@@ -67,15 +67,18 @@ export default function ProjectCard({ project, onOpen, index = 0 }) {
         }}
       />
 
-      <div className="relative aspect-[16/10] overflow-hidden bg-[#111]">
+      <div className="relative aspect-[16/9] overflow-hidden bg-[#111]">
         <Image
           src={project.image}
           alt={`${project.title} preview`}
           fill
-          className="object-cover transition-transform duration-700 group-hover:scale-105"
+          className="object-cover object-top transition-transform duration-700 group-hover:scale-[1.03]"
           sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+          quality={90}
+          priority={index < 3}
         />
-        <div className="absolute inset-0 bg-gradient-to-t from-[#0d0d0d] via-[#0d0d0d]/20 to-transparent opacity-80" />
+        <div className="absolute inset-0 bg-gradient-to-t from-[#0d0d0d]/55 via-transparent to-transparent" />
+        <div className="absolute inset-0 bg-black/0 transition-colors duration-300 group-hover:bg-black/20" />
         <div className="absolute inset-0 flex items-center justify-center opacity-0 transition-opacity duration-300 group-hover:opacity-100">
           <span className="rounded-full border border-white/20 bg-black/50 px-4 py-2 text-sm font-medium backdrop-blur-md">
             {project.liveDemo ? "View Live →" : "View Project →"}

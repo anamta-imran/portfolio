@@ -4,7 +4,7 @@ export const projects = [
     title: "BLINK",
     description:
       "A full-stack beauty and camera web app with authentication, live camera, beauty filters, photo editing, profiles, and favorites.",
-    image: "/images/projects/project-7.svg",
+    image: "/images/projects/blink.png",
     technologies: [
       "React 19",
       "Node.js",
@@ -30,7 +30,7 @@ export const projects = [
     title: "VYBE",
     description:
       "A full-stack social media platform with posts, stories, notifications, follows, real-time chat, rooms, challenges, and bookmarks.",
-    image: "/images/projects/project-8.svg",
+    image: "/images/projects/vybe.png",
     technologies: [
       "React 19",
       "Node.js",
@@ -56,7 +56,7 @@ export const projects = [
     title: "HR Management System",
     description:
       "A comprehensive human resources platform for managing employees, attendance, leave requests, and internal workflows with role-based access.",
-    image: "/images/projects/project-1.svg",
+    image: "/images/projects/hr-management.png",
     technologies: ["Laravel", "PHP", "MySQL", "Next.js", "REST APIs"],
     github: "",
     liveDemo: "https://hr-management-system-one-alpha.vercel.app/",
@@ -73,7 +73,7 @@ export const projects = [
     title: "BMW Car Website",
     description:
       "A premium automotive showcase website featuring modern UI, vehicle listings, and an immersive browsing experience.",
-    image: "/images/projects/project-2.svg",
+    image: "/images/projects/bmw-showcase.png",
     technologies: ["React.js", "Next.js", "Tailwind CSS", "JavaScript", "MERN Stack"],
     github: "",
     liveDemo: "https://bmw-showcase.netlify.app/",
@@ -90,7 +90,7 @@ export const projects = [
     title: "E-Commerce Website",
     description:
       "A full-stack e-commerce platform with product browsing, cart flow, and a clean shopping experience for online storefronts.",
-    image: "/images/projects/project-3.svg",
+    image: "/images/projects/ecommerce.png",
     technologies: ["React.js", "Node.js", "Express.js", "MongoDB", "REST APIs"],
     github: "",
     liveDemo: "https://commerce-e-sitee.netlify.app/",
@@ -107,7 +107,7 @@ export const projects = [
     title: "Bookstore Website",
     description:
       "An online bookstore with catalog browsing, category filters, and a clean shopping-focused interface.",
-    image: "/images/projects/project-4.svg",
+    image: "/images/projects/bookstore.png",
     technologies: ["React.js", "Redux Toolkit", "Node.js", "Express.js", "MongoDB"],
     github: "",
     liveDemo: "https://bookverse-site.netlify.app/",
@@ -124,7 +124,7 @@ export const projects = [
     title: "Biya's Kitchen",
     description:
       "A food and kitchen web experience with menu browsing, cart flow, and a polished restaurant-style interface.",
-    image: "/images/projects/project-5.svg",
+    image: "/images/projects/biyas-kitchen.png",
     technologies: ["Next.js", "React.js", "Tailwind CSS", "Node.js"],
     github: "",
     liveDemo: "https://biya-kitchen.netlify.app/",
@@ -141,7 +141,7 @@ export const projects = [
     title: "Weather Website",
     description:
       "A clean weather application that displays current conditions and forecasts with a responsive, user-friendly interface.",
-    image: "/images/projects/project-6.svg",
+    image: "/images/projects/weather.png",
     technologies: ["React.js", "JavaScript", "REST APIs", "CSS3"],
     github: "",
     liveDemo: "https://weather-sky-site.netlify.app/",
